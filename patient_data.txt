@@ -1,0 +1,6 @@
+event_type,patient_name,patient_mrn,patient_sex,patient_dob,patient_admin,patient_death,patient_location,patient_ping_date,new_patient_date
+A01,Dave Thall,111,M,09041960,04011999,N,CDH,04042015,04042015
+A03,Dave Test,222,M,09041960,04011999,N,EHM,04042015,04042015
+A08,Test Test,333,O,09041960,04011999,N,RUSH,04042015,04042015
+A04,Snow Bird,444,F,09041960,04011999,N,SKY,04042015,04042015
+A05,Louis Dave,555,F,09041960,04011999,N,HOME,04042015,04042015

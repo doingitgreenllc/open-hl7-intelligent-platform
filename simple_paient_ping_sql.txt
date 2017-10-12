@@ -1,0 +1,21 @@
+create database simple_patient_ping;
+
+use simple_patient_ping;
+
+create table patient_ping (event_type varchar(7),
+patient_name varchar(50), 
+patient_mrn varchar(12),patient_sex varchar(1), 
+patient_dob varchar(12),patient_admin varchar(12), 
+patient_death varchar(12),
+patient_location varchar(50), 
+patient_ping_date varchar(12),
+new_patient_date DATE);  
+
+describe patient_ping;
+
+load data local infile '/tmp/patient_data.txt' 
+into table patient_ping fields terminated by ',' lines terminated by '\r\n';
+
+select * from patient_ping;
+
+truncate table patient_ping;
